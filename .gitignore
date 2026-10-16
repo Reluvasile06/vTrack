@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.expo/
+.turbo/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+apps/web-cockpit/dist/
+apps/mobile/.expo/
+apps/mobile/android/
+apps/mobile/ios/
+.supabase/

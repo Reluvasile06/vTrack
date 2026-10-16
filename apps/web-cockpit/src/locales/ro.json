@@ -1,0 +1,20 @@
+{
+  "app": { "name": "vTrack", "home": "Acasă", "admin": "Consolă Admin B2B", "profile": "Profil" },
+  "admin": {
+    "title": "Consolă Admin B2B",
+    "organization": "Organizație",
+    "saveDji": "Salvează cheile DJI",
+    "verifyDji": "Verifică conexiunea DJI",
+    "syncStripe": "Sincronizează Stripe",
+    "quotas": "Cote resurse",
+    "roles": "Roluri membri",
+    "token": "X-User-Token",
+    "projectUuid": "X-Project-Uuid",
+    "status": "Status",
+    "users": "Utilizatori",
+    "drones": "Drone",
+    "vehicles": "Vehicule",
+    "plan": "Plan"
+  },
+  "profile": { "language": "Limbă", "saveLanguage": "Salvează limba" }
+}

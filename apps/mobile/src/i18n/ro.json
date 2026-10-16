@@ -1,0 +1,14 @@
+{
+  "auth": {
+    "title": "Autentificare vTrack",
+    "phone": "Număr de telefon",
+    "sendOtp": "Trimite SMS OTP",
+    "otp": "Cod OTP",
+    "verify": "Verifică"
+  },
+  "profile": {
+    "title": "Setări profil",
+    "language": "Limbă",
+    "saveLanguage": "Salvează limba în profil"
+  }
+}
