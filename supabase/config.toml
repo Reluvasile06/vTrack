@@ -1,0 +1,19 @@
+project_id = "lfcrnyxirilqbguebehi"
+
+[api]
+enabled = true
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+
+[auth.sms]
+enable_signup = true
+enable_confirmations = true
+
+[auth.sms.twilio]
+enabled = true
+# Set via Dashboard or `supabase secrets` — do not commit real values
+account_sid = "env(TWILIO_ACCOUNT_SID)"
+message_service_sid = "env(TWILIO_MESSAGE_SERVICE_SID)"
+auth_token = "env(SUPABASE_AUTH_SMS_TWILIO_AUTH_TOKEN)"

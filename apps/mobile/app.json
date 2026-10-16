@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "vTrack",
+    "slug": "vtrack",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.vtrack.app" },
+    "android": { "package": "com.vtrack.app" },
+    "extra": {
+      "supabaseUrl": "https://lfcrnyxirilqbguebehi.supabase.co"
+    }
+  }
+}

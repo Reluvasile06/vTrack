@@ -1,0 +1,14 @@
+{
+  "auth": {
+    "title": "Inicio de sesión vTrack",
+    "phone": "Número de teléfono",
+    "sendOtp": "Enviar SMS OTP",
+    "otp": "Código OTP",
+    "verify": "Verificar"
+  },
+  "profile": {
+    "title": "Ajustes de perfil",
+    "language": "Idioma",
+    "saveLanguage": "Guardar idioma en el perfil"
+  }
+}

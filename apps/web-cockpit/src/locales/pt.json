@@ -1,0 +1,20 @@
+{
+  "app": { "name": "vTrack", "home": "Início", "admin": "Consola Admin B2B", "profile": "Perfil" },
+  "admin": {
+    "title": "Consola Admin B2B",
+    "organization": "Organização",
+    "saveDji": "Salvar chaves DJI",
+    "verifyDji": "Verificar conexão DJI",
+    "syncStripe": "Sincronizar Stripe",
+    "quotas": "Cotas de recursos",
+    "roles": "Funções dos membros",
+    "token": "X-User-Token",
+    "projectUuid": "X-Project-Uuid",
+    "status": "Status",
+    "users": "Usuários",
+    "drones": "Drones",
+    "vehicles": "Veículos",
+    "plan": "Plano"
+  },
+  "profile": { "language": "Idioma", "saveLanguage": "Salvar idioma" }
+}
