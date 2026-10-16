@@ -1,5 +1,11 @@
 {
-  "app": { "name": "vTrack", "home": "Inicio", "admin": "Consola Admin B2B", "profile": "Perfil" },
+  "app": {
+    "name": "vTrack",
+    "home": "Inicio",
+    "admin": "Consola Admin B2B",
+    "appAdmin": "Admin de la aplicación",
+    "profile": "Perfil"
+  },
   "admin": {
     "title": "Consola Admin B2B",
     "organization": "Organización",
@@ -16,5 +22,46 @@
     "vehicles": "Vehículos",
     "plan": "Plan"
   },
-  "profile": { "language": "Idioma", "saveLanguage": "Guardar idioma" }
+  "profile": { "language": "Idioma", "saveLanguage": "Guardar idioma" },
+  "appAdmin": {
+    "title": "Admin de la aplicación",
+    "loginTitle": "Inicio de sesión Admin de la aplicación",
+    "loginSubtitle": "Acceso con email y contraseña (Application Admin).",
+    "email": "Email",
+    "password": "Contraseña",
+    "signIn": "Iniciar sesión",
+    "signingIn": "Iniciando sesión…",
+    "signOut": "Cerrar sesión",
+    "notAdmin": "Esta cuenta no es Application Admin.",
+    "loading": "Comprobando sesión…",
+    "signedInAs": "Sesión iniciada como",
+    "openB2b": "Abrir consola B2B",
+    "createOrg": "Crear organización",
+    "orgName": "Nombre de la organización",
+    "orgType": "Tipo de organización",
+    "createOrgSubmit": "Crear",
+    "orgCreated": "Organización creada; se te añadió como b2b_admin.",
+    "orgList": "Organizaciones visibles",
+    "noOrgs": "Aún no hay organizaciones.",
+    "twilioTitle": "Credenciales Twilio",
+    "stripeTitle": "Credenciales Stripe",
+    "credentialsHint": "Los valores se guardan en app_settings (solo Application Admin). No los subas a git.",
+    "saveTwilio": "Guardar Twilio",
+    "saveStripe": "Guardar Stripe",
+    "settingsSaved": "Ajustes guardados.",
+    "settings": {
+      "twilio_account_sid": "Twilio Account SID",
+      "twilio_auth_token": "Twilio Auth Token",
+      "twilio_messaging_service_sid": "Twilio Messaging Service SID",
+      "stripe_publishable_key": "Stripe Publishable Key",
+      "stripe_secret_key": "Stripe Secret Key",
+      "stripe_webhook_secret": "Stripe Webhook Secret"
+    },
+    "orgTypes": {
+      "b2b_corporate": "B2B corporativo",
+      "law_enforcement": "Fuerzas del orden",
+      "hunting_assoc": "Asociación de caza",
+      "b2c_individual": "B2C individual"
+    }
+  }
 }

@@ -7,6 +7,7 @@ dist/
 !.env.example
 *.log
 .DS_Store
+*.tsbuildinfo
 apps/web-cockpit/dist/
 apps/mobile/.expo/
 apps/mobile/android/

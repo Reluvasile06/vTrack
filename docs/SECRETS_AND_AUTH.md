@@ -48,6 +48,10 @@ supabase secrets set DJI_API_BASE=https://es-flight-api-us.djigate.com --project
 
 B2B admins paste `X-User-Token` + `X-Project-Uuid` in Web → B2B Admin Console → Verify calls `dji-verify-credentials`.
 
-## 4. Client env
+## 4. Application Admin credentials UI (`app_settings`)
 
-Copy `.env.example` → `apps/web-cockpit/.env` and `apps/mobile/.env` with anon key from Supabase → Project Settings → API.
+Web `/app-admin` stores Twilio/Stripe key material in `public.app_settings` (RLS: `profiles.is_app_admin` only). Prefer also configuring Auth Phone (Twilio) and Edge Function secrets as above for runtime; the UI table is for Application Admin configuration in Stage 1.
+
+## 5. Client env
+
+Copy `.env.example` → `apps/web-cockpit/.env` and `apps/mobile/.env` with anon key from Supabase → Project Settings → API. Do not commit real `.env` files.

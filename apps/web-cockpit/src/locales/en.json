@@ -1,5 +1,11 @@
 {
-  "app": { "name": "vTrack", "home": "Home", "admin": "B2B Admin Console", "profile": "Profile" },
+  "app": {
+    "name": "vTrack",
+    "home": "Home",
+    "admin": "B2B Admin Console",
+    "appAdmin": "Application Admin",
+    "profile": "Profile"
+  },
   "admin": {
     "title": "B2B Admin Console",
     "organization": "Organization",
@@ -16,5 +22,46 @@
     "vehicles": "Vehicles",
     "plan": "Plan"
   },
-  "profile": { "language": "Language", "saveLanguage": "Save language" }
+  "profile": { "language": "Language", "saveLanguage": "Save language" },
+  "appAdmin": {
+    "title": "Application Admin",
+    "loginTitle": "Application Admin sign-in",
+    "loginSubtitle": "Sign in with email and password (Application Admin).",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "signOut": "Sign out",
+    "notAdmin": "This account is not an Application Admin.",
+    "loading": "Checking session…",
+    "signedInAs": "Signed in as",
+    "openB2b": "Open B2B console",
+    "createOrg": "Create organization",
+    "orgName": "Organization name",
+    "orgType": "Organization type",
+    "createOrgSubmit": "Create",
+    "orgCreated": "Organization created; you were added as b2b_admin.",
+    "orgList": "Visible organizations",
+    "noOrgs": "No organizations yet.",
+    "twilioTitle": "Twilio credentials",
+    "stripeTitle": "Stripe credentials",
+    "credentialsHint": "Values are stored in the app_settings table (Application Admin only). Do not commit them to git.",
+    "saveTwilio": "Save Twilio",
+    "saveStripe": "Save Stripe",
+    "settingsSaved": "Settings saved.",
+    "settings": {
+      "twilio_account_sid": "Twilio Account SID",
+      "twilio_auth_token": "Twilio Auth Token",
+      "twilio_messaging_service_sid": "Twilio Messaging Service SID",
+      "stripe_publishable_key": "Stripe Publishable Key",
+      "stripe_secret_key": "Stripe Secret Key",
+      "stripe_webhook_secret": "Stripe Webhook Secret"
+    },
+    "orgTypes": {
+      "b2b_corporate": "B2B corporate",
+      "law_enforcement": "Law enforcement",
+      "hunting_assoc": "Hunting association",
+      "b2c_individual": "B2C individual"
+    }
+  }
 }

@@ -1,5 +1,11 @@
 {
-  "app": { "name": "vTrack", "home": "Acasă", "admin": "Consolă Admin B2B", "profile": "Profil" },
+  "app": {
+    "name": "vTrack",
+    "home": "Acasă",
+    "admin": "Consolă Admin B2B",
+    "appAdmin": "Admin aplicație",
+    "profile": "Profil"
+  },
   "admin": {
     "title": "Consolă Admin B2B",
     "organization": "Organizație",
@@ -16,5 +22,46 @@
     "vehicles": "Vehicule",
     "plan": "Plan"
   },
-  "profile": { "language": "Limbă", "saveLanguage": "Salvează limba" }
+  "profile": { "language": "Limbă", "saveLanguage": "Salvează limba" },
+  "appAdmin": {
+    "title": "Admin aplicație",
+    "loginTitle": "Autentificare Admin aplicație",
+    "loginSubtitle": "Conectare cu email și parolă (Application Admin).",
+    "email": "Email",
+    "password": "Parolă",
+    "signIn": "Autentificare",
+    "signingIn": "Se autentifică…",
+    "signOut": "Deconectare",
+    "notAdmin": "Contul nu are drepturi de Application Admin.",
+    "loading": "Se verifică sesiunea…",
+    "signedInAs": "Autentificat ca",
+    "openB2b": "Deschide consolă B2B",
+    "createOrg": "Creează organizație",
+    "orgName": "Nume organizație",
+    "orgType": "Tip organizație",
+    "createOrgSubmit": "Creează",
+    "orgCreated": "Organizație creată; ai fost adăugat ca b2b_admin.",
+    "orgList": "Organizații vizibile",
+    "noOrgs": "Nicio organizație încă.",
+    "twilioTitle": "Credențiale Twilio",
+    "stripeTitle": "Credențiale Stripe",
+    "credentialsHint": "Valorile se salvează în tabela app_settings (doar Application Admin). Nu le comite în git.",
+    "saveTwilio": "Salvează Twilio",
+    "saveStripe": "Salvează Stripe",
+    "settingsSaved": "Setări salvate.",
+    "settings": {
+      "twilio_account_sid": "Twilio Account SID",
+      "twilio_auth_token": "Twilio Auth Token",
+      "twilio_messaging_service_sid": "Twilio Messaging Service SID",
+      "stripe_publishable_key": "Stripe Publishable Key",
+      "stripe_secret_key": "Stripe Secret Key",
+      "stripe_webhook_secret": "Stripe Webhook Secret"
+    },
+    "orgTypes": {
+      "b2b_corporate": "B2B corporate",
+      "law_enforcement": "Forțe de ordine",
+      "hunting_assoc": "Asociație de vânătoare",
+      "b2c_individual": "B2C individual"
+    }
+  }
 }
